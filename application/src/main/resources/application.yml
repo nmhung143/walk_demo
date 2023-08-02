@@ -1,0 +1,36 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+  error:
+    whitelabel:
+      enabled: false
+    path: /error
+
+spring:
+  application:
+    name: walk-api
+  main:
+    allow-bean-definition-overriding: true
+    allow-circular-references: true
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 25MB
+      max-request-size: 101MB
+      file-size-threshold: 2KB
+
+logging:
+  level:
+    org:
+      springframework: INFO
+      hibernate:
+        SQL: INFO
+    org.springframework.security: DEBUG
+
+security:
+  jwt:
+    secret: v9y$B&E)H@MbQeThWmZq4t7w!z%C*F-JaNdRfUjXn2r775u8x/A?D(G+KbPeShVkYp
+    expire-in-minutes: 3000
+    issuer: ibrave
+    audience: metabucket

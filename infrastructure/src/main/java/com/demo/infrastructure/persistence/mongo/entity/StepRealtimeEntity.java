@@ -5,6 +5,10 @@ import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+/**
+ * @author : hung.nguyenmanh
+ * @created : 7/2/2023
+ **/
 @Getter
 @Setter
 @Document

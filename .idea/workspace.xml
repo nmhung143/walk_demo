@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04785ad3-6722-429d-8292-0fca209d92aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/config/MongoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/filters/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/security/SecurityContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/security/UserAuthentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/security/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/security/UserRepoDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/event/CreateStepEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/event/StepListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/event/StepPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/facade/StepRealtimeFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/facade/StepStatisticFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/job/StepBatchJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/restful/api/StepRealtimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/restful/api/StepStatisticController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/restful/request/UpdateRealtimeStepReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/restful/response/MonthStepResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/restful/response/RealtimeStepResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/restful/response/WeekStepResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/service/StepRealtimeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/step/service/StepStatisticService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/user/facade/UserFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/user/restful/api/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/user/restful/request/CreateUserReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/user/restful/request/UserLoginReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/user/restful/response/UserLoginResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/demo/common/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/demo/common/PageReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/step/usecase/StepStatisticUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/user/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/demo/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/WalkApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/demo/application/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/demo/application/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/demo/application/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/demo/common/BaseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/demo/common/BaseAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/demo/common/BaseApplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/demo/common/BaseApplicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/demo/common/BaseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/demo/common/BaseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/demo/common/BasePersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/demo/common/BasePersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/demo/common/BaseUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/demo/common/BaseUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/demo/common/exception/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/demo/common/exception/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/demo/common/exception/WalkException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/demo/common/exception/WalkException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/demo/common/CommonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/step/StepRealTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/step/StepRealtime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/step/StepStatistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/step/StepStatistic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/step/persistence/StepRealTimePersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/step/persistence/StepRealtimePersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/step/persistence/StepStatisticPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/step/persistence/StepStatisticPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/step/usecase/StepRealTimeUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/step/usecase/StepRealTimeUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/user/persistence/UserPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/user/persistence/UserPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/user/usecase/UserUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/demo/domain/user/usecase/UserUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/demo/domain/DomainApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/adapter/StepRealTimePersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/adapter/StepRealtimePersistenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/adapter/StepStatisticPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/adapter/StepStatisticPersistenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/adapter/UserPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/adapter/UserPersistenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mapper/StepRealtimeEntityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mapper/StepRealtimeEntityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mapper/StepStatisticEntityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mapper/StepStatisticEntityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mapper/UserEntityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mapper/UserEntityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mongo/entity/StepRealtimeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mongo/entity/StepRealtimeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mongo/entity/StepStatisticEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mongo/entity/StepStatisticEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mongo/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mongo/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mongo/repo/StepRealTimeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mongo/repo/StepRealTimeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mongo/repo/StepStatisticEntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mongo/repo/StepStatisticEntityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mongo/repo/UserEntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/demo/infrastructure/persistence/mongo/repo/UserEntityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/src/test/java/com/demo/infrastructure/InfrastructureApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TQnbr1xxD5U2CoK0QffBuOIulE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/hungmanh/Downloads/walk",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04785ad3-6722-429d-8292-0fca209d92aa" name="Changes" comment="" />
+      <created>1690984247074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690984247074</updated>
+      <workItem from="1690984248373" duration="3203000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

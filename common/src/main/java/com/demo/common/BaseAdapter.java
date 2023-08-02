@@ -4,6 +4,13 @@ import com.demo.common.exception.ErrorCode;
 import com.demo.common.exception.WalkException;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
+import java.util.Optional;
+
+/**
+ * @author : hung.nguyenmanh
+ * @created : 7/2/2023
+ **/
+@SuppressWarnings("ALL")
 public abstract class BaseAdapter<E, DM, ID> implements BasePersistence<DM, ID> {
     protected BaseMapper<E, DM> mapper;
     protected MongoRepository<E, ID> repo;
@@ -23,9 +30,15 @@ public abstract class BaseAdapter<E, DM, ID> implements BasePersistence<DM, ID> 
     public DM findById(ID id) {
         var entity = repo.findById(id);
         if (entity.isEmpty()) {
-            throw new WalkException(NotFoundErrorCode());
+            throw new WalkException(notFoundErrorCode());
         }
         return mapper.toDomain(entity.get());
+    }
+
+    @Override
+    public Optional<DM> findByIdOpt(ID id) {
+        var entity = repo.findById(id);
+        return Optional.ofNullable(mapper.toDomain(entity.get()));
     }
 
     @Override
@@ -33,5 +46,13 @@ public abstract class BaseAdapter<E, DM, ID> implements BasePersistence<DM, ID> 
         repo.deleteById(id);
     }
 
-    protected abstract ErrorCode NotFoundErrorCode();
+    protected abstract ErrorCode notFoundErrorCode();
+
+    protected BaseMapper mapper() {
+        return mapper;
+    }
+
+    protected MongoRepository repo() {
+        return repo;
+    }
 }
